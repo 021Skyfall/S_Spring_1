@@ -10,9 +10,9 @@ public class Coffee implements MenuService {
     @Override
     public List<Menu> getMenuList() {
         return List.of(
-                new Menu(1,"아메리카노",3000),
-                new Menu(2,"콜드브루",5000),
-                new Menu(3, "카페라떼",4500)
+                new Menu(1, "아메리카노", 3000),
+                new Menu(2, "콜드브루", 5000),
+                new Menu(3, "카페라떼", 4500)
         );
     }
 }
